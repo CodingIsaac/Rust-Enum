@@ -20,5 +20,14 @@ impl Shape {
     
 }
 fn main() {
-    println!("Hello, world!");
+    let triangle = Shape::Triangle;
+    let square = Shape::Square;
+    let pentagon = Shape::Pentagon;
+    let octagon = Shape::Octagon;
+
+    println!("{:?}", triangle.num());
+    println!("{:?}", square.num());
+    println!("{:?}", pentagon.num());
+    println!("{:?}", octagon.num());
+   
 }
